@@ -1,6 +1,6 @@
 <?php 
 $url=$_GET['url'];
-include'gethtml.php';
+require __DIR__ . '/../gethtml.php';
  if (strpos($url, 'torrent')){$magnet1=$url;}else{
 $html=gethtml($url);
 preg_match('|href="magnet(.*?)"|i',$html,$magnet);
