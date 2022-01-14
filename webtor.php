@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <div id="player"></div>
